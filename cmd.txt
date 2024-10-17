@@ -1,0 +1,3 @@
+npx hardhat --network testnet_polygon run scripts/mintUSDC.ts
+npx hardhat --network testnet_celo deploy-mocked-usdc --decimals 6
+npx hardhat --network testnet_neonevm deploy-and-configure --usdc-contract-addr 0x1d4412F2444392DD08b2eAbC0bF3234a2c580555 --entry-point 0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789

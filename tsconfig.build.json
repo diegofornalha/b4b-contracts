@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+      "rootDirs": ["src"],
+      "outDir": "dist"
+    },
+    "include": ["src", "typechain-types", "src/*.json", "abi/**/*.json"],
+    "exclude": ["tasks", "test", "scripts"]
+}
